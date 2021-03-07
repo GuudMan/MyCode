@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播图</title>
+
+
+</head>
+<body>
+    <img id = "img_id" src= "img/img_1.png" width = "100%">
+
+<script>
+    /*
+    分析：
+        1. 在页面上展示图片
+        2. 定义方法，修改图片对象链接
+        3. 定义一个定时器，每隔3秒调用方法一次
+     */
+
+    var num = 1;
+
+    // 修改图片src
+    function chang_img() {
+        num ++;
+        if (num <=3){
+            let img = document.getElementById("img_id");
+            img.src = "img/img_" + num + ".png";
+        }else {
+            num = 1;
+        }
+    }
+
+    // 定义定时器
+    var time = setInterval(chang_img,3000)
+</script>
+
+</body>
+</html>

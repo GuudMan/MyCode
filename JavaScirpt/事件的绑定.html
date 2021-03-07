@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件绑定</title>
+
+
+
+</head>
+<body>
+    <img id = "img_on" src = "img/on.png" onclick="fun()">
+<!--    <img id = "img_off" src = "img/off.png" onclick="fun2()">-->
+
+
+    <script>
+        function fun() {
+            let img_off = document.getElementById("img_on");
+            img_off.src = "img/off.png"
+
+        }
+
+        function fun2() {
+
+            let img_off = document.getElementById("img_off");
+            img_off.src = "img/off.png"
+        }
+
+
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>倒计时页面跳转</title>
+    <style>
+        p {
+            text-align: center;
+        }
+        span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<p>
+    <span id = "time">5</span>秒后跳转到美女
+</p>
+
+<script>
+
+    var num = 5
+    var time_id = document.getElementById("time");
+
+    setInterval(func, 1000)
+
+    function func() {
+        if (num >= 1){
+            num --;
+            time_id.innerHTML = num;
+        }else {
+            location.href = "http://localhost:63342/day02_Dom/code/tangyixin.html?_ijt=2u8kr3hemic3lanfs78879rvj7"
+        }
+
+    }
+
+
+
+</script>
+
+</body>
+</html>

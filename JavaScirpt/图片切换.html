@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片切换</title>
+</head>
+<body>
+    <img id  = "img_on" src = "img/img_1.png">
+
+    <script>
+        /*
+        1. 获取图片对象
+        2. 绑定点击事件
+        3. 每次点击就来回切换
+            如果为on，切换为off
+            如果为off，切换为on
+            使用Boolean标记图片的状态
+         */
+        // 获取图片对象
+        let img_on = document.getElementById("img_on");
+        var flag = true;
+        // 绑定单击事件
+        img_on.onclick = function () {
+            if(flag){
+                img_on.src = "img/off.png";
+                flag = false;
+            }else{
+                img_on.src = "img/on.png";
+                flag = true;
+            }
+        }
+    </script>
+
+</body>
+</html>
