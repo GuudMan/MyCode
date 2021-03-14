@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<students>
+	<student numbe="fd0001">
+		<name id="itcast">java</name>
+		<age>18</age>
+		<sex>male</sex>
+	</student>
+	<student number="0002">
+		<name>jack</name>
+		<age>18</age>
+		<sex>female</sex>
+	</student>
+
+</students>

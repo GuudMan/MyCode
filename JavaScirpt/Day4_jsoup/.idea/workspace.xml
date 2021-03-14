@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b366794b-707f-49ee-ac65-891b296be5c3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\1Temp\project\Maven_work\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Maven_work/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\1Temp\project\Maven_work\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-Darchetypecatalog=internal" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1phnXahNYX0ETZd5d9AKaxHDcfM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pn/test/javaweb/xml" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\1Temp\project\javaWeb\Day4_jsoup\src\pn\test\javaweb\jsoup" />
+      <recent name="D:\1Temp\project\javaWeb\Day4_jsoup\src\pn\test\javaweb" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\1Temp\project\javaWeb\Day4_jsoup\src\pn\test\javaweb\xml" />
+      <recent name="D:\1Temp\project\javaWeb\Day4_jsoup\src" />
+      <recent name="D:\1Temp\project\javaWeb\Day4_jsoup\libs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.JsoupDemo4">
+    <configuration name="JsoupDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pn.test.javaweb.jsoup.JsoupDemo1" />
+      <module name="Day4_jsoup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pn.test.javaweb.jsoup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsoupDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pn.test.javaweb.jsoup.JsoupDemo4" />
+      <module name="Day4_jsoup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pn.test.javaweb.jsoup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsoupDemo1.JsoupDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Day4_jsoup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pn.test.javaweb.jsoup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pn.test.javaweb.jsoup" />
+      <option name="MAIN_CLASS_NAME" value="pn.test.javaweb.jsoup.JsoupDemo1" />
+      <option name="METHOD_NAME" value="JsoupDocument" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsoupDemo1.JsoupURL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Day4_jsoup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pn.test.javaweb.jsoup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pn.test.javaweb.jsoup" />
+      <option name="MAIN_CLASS_NAME" value="pn.test.javaweb.jsoup.JsoupDemo1" />
+      <option name="METHOD_NAME" value="JsoupURL" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsoupDemo1.jsoupTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Day4_jsoup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pn.test.javaweb.jsoup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pn.test.javaweb.jsoup" />
+      <option name="MAIN_CLASS_NAME" value="pn.test.javaweb.jsoup.JsoupDemo1" />
+      <option name="METHOD_NAME" value="jsoupTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JsoupDemo4" />
+        <item itemvalue="JUnit.JsoupDemo1.JsoupDocument" />
+        <item itemvalue="JUnit.JsoupDemo1.JsoupURL" />
+        <item itemvalue="JUnit.JsoupDemo1.jsoupTest" />
+        <item itemvalue="Application.JsoupDemo1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b366794b-707f-49ee-ac65-891b296be5c3" name="Default Changelist" comment="" />
+      <created>1615644229389</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615644229389</updated>
+      <workItem from="1615644232398" duration="9151000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="191" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615646497123">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state x="191" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1471.864@0.0.1471.864" timestamp="1615646497123" />
+    <state x="517" y="187" key="FileChooserDialogImpl" timestamp="1615646383764">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state x="517" y="187" key="FileChooserDialogImpl/0.0.1471.864@0.0.1471.864" timestamp="1615646383764" />
+    <state width="1429" height="224" key="GridCell.Tab.0.bottom" timestamp="1615688048096">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state width="1429" height="224" key="GridCell.Tab.0.bottom/0.0.1471.864@0.0.1471.864" timestamp="1615688048096" />
+    <state width="1429" height="224" key="GridCell.Tab.0.center" timestamp="1615688048096">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state width="1429" height="224" key="GridCell.Tab.0.center/0.0.1471.864@0.0.1471.864" timestamp="1615688048096" />
+    <state width="1429" height="224" key="GridCell.Tab.0.left" timestamp="1615688048095">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state width="1429" height="224" key="GridCell.Tab.0.left/0.0.1471.864@0.0.1471.864" timestamp="1615688048095" />
+    <state width="1429" height="224" key="GridCell.Tab.0.right" timestamp="1615688048096">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state width="1429" height="224" key="GridCell.Tab.0.right/0.0.1471.864@0.0.1471.864" timestamp="1615688048096" />
+    <state width="1429" height="277" key="GridCell.Tab.1.bottom" timestamp="1615646479768">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state width="1429" height="277" key="GridCell.Tab.1.bottom/0.0.1471.864@0.0.1471.864" timestamp="1615646479768" />
+    <state width="1429" height="277" key="GridCell.Tab.1.center" timestamp="1615646479768">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state width="1429" height="277" key="GridCell.Tab.1.center/0.0.1471.864@0.0.1471.864" timestamp="1615646479768" />
+    <state width="1429" height="277" key="GridCell.Tab.1.left" timestamp="1615646479768">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state width="1429" height="277" key="GridCell.Tab.1.left/0.0.1471.864@0.0.1471.864" timestamp="1615646479768" />
+    <state width="1429" height="277" key="GridCell.Tab.1.right" timestamp="1615646479768">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state width="1429" height="277" key="GridCell.Tab.1.right/0.0.1471.864@0.0.1471.864" timestamp="1615646479768" />
+    <state x="238" y="14" key="SettingsEditor" timestamp="1615686727560">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state x="238" y="14" key="SettingsEditor/0.0.1471.864@0.0.1471.864" timestamp="1615686727560" />
+    <state x="453" y="326" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1615684823621">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state x="453" y="326" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1471.864@0.0.1471.864" timestamp="1615684823621" />
+    <state x="399" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1615686792496">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state x="399" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1471.864@0.0.1471.864" timestamp="1615686792496" />
+  </component>
+</project>
