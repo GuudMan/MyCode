@@ -30,12 +30,6 @@ public class JsoupDemo4 {
         String number = element_student.attr("numbe");
         System.out.println(number);
 
-        // 获取文本内容
-        String text = elementsName.text();
-        String html = elementsName.html();
-        System.out.println(text);  // 输出java
-        System.out.println(html);  // 输出java
-
 
     }
 }
