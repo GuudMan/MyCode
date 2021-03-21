@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Day8ServletHttpRequest:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Day8ServletHttpRequest_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Day8ServletHttpRequest/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Day8ServletHttpRequest" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
