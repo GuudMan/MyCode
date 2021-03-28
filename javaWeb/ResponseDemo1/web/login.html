@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+</head>
+<body>
+<img id= "checkCode" src = "/CheckCodeServlet3" />
+<a id = "change" href = "">看不清换一张?</a>
+
+<script>
+    /*
+    分析：点击超链接或图片，需要换一张
+            1、 给图片/超链接绑定单击事件
+            2、 重新设置图片的src属性值
+     */
+    window.onload=function () {
+        // 获取图片
+        var img =document.getElementById("checkCode");
+
+        // 绑定单击事件
+        img.onclick = function () {
+            // 为了实现永不重复，加时间戳
+            var date = new Date().getTime();
+            img.src = "/CheckCodeServlet3?" + date;
+            // /CheckCodeServlet3?1 为了防止缓存，无任何意义
+        }
+    }
+</script>
+</body>
+</html>
