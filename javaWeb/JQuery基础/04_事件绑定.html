@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件绑定</title>
+    <!--引入标签-->
+    <script src = "js/jquery-3.5.1.min.js"></script>
+
+
+    <script>
+        // 按钮添加单击事件
+
+        // 获取按钮
+        // $("#bt").click(function () {
+        //     alert("abc")
+        // });
+
+        $(function () {
+            // $("#div1").css("background-color","red");// 写法1
+            $("#div1").css("backgroundColor","red");// 写法2，鼠标放上去会有颜色
+        });
+    </script>
+
+</head>
+<body>
+    <div id="div1">div1.。。</div>
+    <div id="div2">div2.。。</div>
+    <input type = "button" value = "按钮" id = "bt">
+
+
+</body>
+</html>

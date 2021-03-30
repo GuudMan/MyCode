@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>抽奖案例</title>
+    <script type="text/javascript" src="../js/jquery-3.5.1.min.js"></script>
+
+    <script>
+        // 给开始按钮绑定单击事件
+            // 循环定时器
+            // 切换图片
+                //定义数组，存放图片资源路径，生成随机数
+
+        // 给结束按钮绑定单击事件
+            // 停止定时器
+            // 大相框设置src属性
+        var imgs = ["../img/man00.jpg","../img/man01.jpg","../img/man02.jpg",
+            "../img/man03.jpg","../img/man04.jpg","../img/man05.jpg",
+            "../img/man06.jpg","../img/man07.jpg","../img/man08.jpg",
+            "../img/man09.jpg","../img/man10.jpg","../img/man11.jpg",
+            "../img/man11.jpg","../img/man12.jpg","../img/man13.jpg",
+            "../img/man14.jpg"];
+        var startid;
+        var index;
+        // 入口函数
+        $(function () {
+            // 处理按钮是否可以使用的效果
+            $("#startID").prop("disabled",false);
+            $("#stopID").prop("disabled",true);
+
+            // 给开始按钮绑定单击事件
+            $("#startID").click(function () {
+
+                $("#startID").prop("disabled",true);
+                $("#stopID").prop("disabled",false);
+
+                // 循环定时器
+                startid = setInterval(function () {
+                    // 随机角标
+                    index = Math.floor(Math.random() * 14);
+                    $("#img1ID").prop("src",imgs[index])
+                },20);
+            });
+
+            // 给结束按钮绑定单击事件
+            $("#stopID").click(function () {
+
+                $("#startID").prop("disabled",false);
+                $("#stopID").prop("disabled",true);
+
+                // 停止定时器
+                clearInterval(startid);
+                // 设置大相框src
+                $("#img2ID").prop("src",imgs[index]).hide()
+                $("#img2ID").show(1000);// 设置1秒后显示，不会一下子突然出现，视觉效果更好
+            });
+        });
+
+    </script>
+
+</head>
+<body>
+<!--小相框-->
+<div style = "border-style: dotted;width: 160px;height: 100px">
+    <img id="img1ID" src = "../img/man00.jpg" style="width: 160px;height: 100px">
+</div>
+<!--大相框-->
+<div style = "border-style: double;width: 800px;height: 500px;position: absolute;left:500px;top: 10px">
+    <img id="img2ID" src = "../img/man00.jpg" style="width: 800px;height: 500px">
+</div>
+<!--开始按钮-->
+<input
+
+        id = "startID"
+        type="button"
+        value="开始抽奖"
+        style="width: 150px;height: 150px;font-size: 22px"
+>
+
+<!--停止按钮-->
+<input
+
+        id = "stopID"
+        type="button"
+        value="停止抽奖"
+        style="width: 150px;height: 150px;font-size: 22px"
+>
+
+</body>
+</html>
