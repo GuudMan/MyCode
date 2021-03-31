@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="12e86c4b-1a5e-4c2c-be1b-5e64ec6da423" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\1Temp\project\Maven_work\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Maven_work/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\1Temp\project\Maven_work\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-Darchetypecatalog=internal" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1qNGCsZOPsx50LP3VhKZvBDYkcZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="js.last.introduce.type" value="VAR" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\1Temp\project\javaWeb\JQuery基础" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\1Temp\project\javaWeb\JQuery基础\img" />
+      <recent name="D:\1Temp\project\javaWeb\JQuery基础\综合案例" />
+      <recent name="D:\1Temp\project\javaWeb\JQuery基础\js" />
+      <recent name="D:\1Temp\project\javaWeb\JQuery基础" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12e86c4b-1a5e-4c2c-be1b-5e64ec6da423" name="Default Changelist" comment="" />
+      <created>1616912513309</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616912513309</updated>
+      <workItem from="1616912523364" duration="5554000" />
+      <workItem from="1617025326976" duration="4148000" />
+      <workItem from="1617112126798" duration="2445000" />
+      <workItem from="1617115146953" duration="2055000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="237" y="74" key="SettingsEditor" timestamp="1616914891148">
+      <screen x="0" y="0" width="1470" height="864" />
+    </state>
+    <state x="237" y="74" key="SettingsEditor/0.0.1470.864@0.0.1470.864" timestamp="1616914891148" />
+    <state x="416" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1617115247924">
+      <screen x="0" y="0" width="1470" height="864" />
+    </state>
+    <state x="416" y="256" key="com.intellij.ide.util.TipDialog/0.0.1470.864@0.0.1470.864" timestamp="1617115247924" />
+    <state x="398" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1617113658655">
+      <screen x="0" y="0" width="1470" height="864" />
+    </state>
+    <state x="398" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1470.864@0.0.1470.864" timestamp="1617113658655" />
+  </component>
+</project>
