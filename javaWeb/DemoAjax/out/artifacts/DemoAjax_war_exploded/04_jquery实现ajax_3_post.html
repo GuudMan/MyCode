@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>03_jquery实现ajax_2_post</title>
+    <script src = "js/jquery-3.5.1.min.js"></script>
+    <script>
+        function func() {
+                $.post("ajaxServlet",
+                    {username:"rose"},
+                    function (data) {
+                    alert(data);
+                },
+                    "text")
+        }
+    </script>
+
+</head>
+<body>
+
+    <input type="button" value="发送异步请求" onclick="func();">
+    <input>
+</body>
+</html>

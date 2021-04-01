@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>json数据格式</title>
+    <script>
+        // 基本格式
+        var person = {
+            "name":"张三",
+            "age":23,
+            "gender":"男"
+        };
+        // 获取name的值
+        // var name = person.name;
+        // person["name"] 也可以这样写
+
+        // 循环获取键和值
+        // for(var key in person){
+        //     // alert(key);
+        //     var person1 = person[key];// 获取值
+        //     alert(person1);
+        // }
+
+        // alert(name);
+        // alert(person)
+
+
+        // 嵌套格式
+        var persions = {"persion":[
+            {"name":"张三", "age":23, "gender":"男"},
+            {"name":"李四", "age":23, "gender":"男"},
+            {"name":"王五", "age":23, "gender":"男"}]
+        };
+        // 获取name的值 王五
+        // var name1 = persions.persion[2].name;
+        // alert(name1);
+
+        // alert(persions)
+        // 方式3
+        var ps = [
+            {"name":"张三", "age":23, "gender":"男"},
+            {"name":"李四", "age":23, "gender":"男"},
+            {"name":"王五", "age":23, "gender":"男"}]
+        // 获取name 王五
+        // var name1 = ps[0].name;
+        // alert(name1)
+
+        // 获取ps中的所有值
+        for(var i = 0; i < ps.length; i++){
+            var p = ps[i];
+            for(var key in p){
+                alert(key + ":" + p[key]);
+            }
+        }
+
+        // alert(ps);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
