@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="RedisDemo:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ce6cb38a-3a11-45d7-8327-ac0f0fdf4288" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\1Temp\project\Maven_work\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Maven_work/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\1Temp\project\Maven_work\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-Darchetypecatalog=internal" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1qdnYoim9gXqy86sOh6XAMJGMjC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/cn/pn/DemoJedis" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.pn.DemoJedis.Test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\1Temp\project\javaWeb\RedisDemo\src\cn\pn\DemoJedis" />
+      <recent name="D:\1Temp\project\javaWeb\RedisDemo\web\WEB-INF\lib" />
+      <recent name="D:\1Temp\project\javaWeb\RedisDemo\src" />
+      <recent name="D:\1Temp\project\javaWeb\RedisDemo\src\cn\pn\DemoJedis\util" />
+      <recent name="D:\1Temp\project\javaWeb\RedisDemo\web" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat9.0">
+    <configuration name="JedisTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RedisDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.pn.DemoJedis.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.pn.DemoJedis.Test" />
+      <option name="MAIN_CLASS_NAME" value="cn.pn.DemoJedis.Test.JedisTest1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisTest1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RedisDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.pn.DemoJedis.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.pn.DemoJedis.Test" />
+      <option name="MAIN_CLASS_NAME" value="cn.pn.DemoJedis.Test.JedisTest1" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RedisDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.pn.DemoJedis.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.pn.DemoJedis.Test" />
+      <option name="MAIN_CLASS_NAME" value="cn.pn.DemoJedis.Test.JedisTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisTest.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RedisDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.pn.DemoJedis.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.pn.DemoJedis.Test" />
+      <option name="MAIN_CLASS_NAME" value="cn.pn.DemoJedis.Test.JedisTest" />
+      <option name="METHOD_NAME" value="test7" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat9.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat9.0" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="RedisDemo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat9_0_RedisDemo" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="11919" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="RedisDemo:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.JedisTest.test1" />
+      <item itemvalue="JUnit.JedisTest.test7" />
+      <item itemvalue="JUnit.JedisTest1" />
+      <item itemvalue="JUnit.JedisTest1.test1" />
+      <item itemvalue="Tomcat Server.Tomcat9.0" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JedisTest1" />
+        <item itemvalue="JUnit.JedisTest1.test1" />
+        <item itemvalue="JUnit.JedisTest.test7" />
+        <item itemvalue="JUnit.JedisTest.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.16558206" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce6cb38a-3a11-45d7-8327-ac0f0fdf4288" name="Default Changelist" comment="" />
+      <created>1617418389545</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617418389545</updated>
+      <workItem from="1617418407622" duration="3968000" />
+      <workItem from="1617505773476" duration="11341000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="199" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617508682797">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="190" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1470.864@0.0.1470.864" timestamp="1617508508128" />
+    <state x="199" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1617508682797" />
+    <state x="455" y="235" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617502065241">
+      <screen x="0" y="0" width="1470" height="864" />
+    </state>
+    <state x="455" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1470.864@0.0.1470.864" timestamp="1617502065241" />
+    <state x="541" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1617507581953">
+      <screen x="0" y="0" width="1470" height="864" />
+    </state>
+    <state x="541" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1470.864@0.0.1470.864" timestamp="1617507581953" />
+    <state x="466" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617509307457">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="466" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1617509307457" />
+    <state width="1221" height="207" key="GridCell.Tab.0.bottom" timestamp="1617542144522">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1153" height="490" key="GridCell.Tab.0.bottom/0.0.1470.864@0.0.1470.864" timestamp="1617508603301" />
+    <state width="1221" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617542144522" />
+    <state width="1221" height="207" key="GridCell.Tab.0.center" timestamp="1617542144522">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1153" height="490" key="GridCell.Tab.0.center/0.0.1470.864@0.0.1470.864" timestamp="1617508603301" />
+    <state width="1221" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1617542144522" />
+    <state width="1221" height="207" key="GridCell.Tab.0.left" timestamp="1617542144522">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1153" height="490" key="GridCell.Tab.0.left/0.0.1470.864@0.0.1470.864" timestamp="1617508603300" />
+    <state width="1221" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1617542144522" />
+    <state width="1221" height="207" key="GridCell.Tab.0.right" timestamp="1617542144522">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1153" height="490" key="GridCell.Tab.0.right/0.0.1470.864@0.0.1470.864" timestamp="1617508603301" />
+    <state width="1221" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1617542144522" />
+    <state width="1221" height="207" key="GridCell.Tab.1.bottom" timestamp="1617542144522">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1153" height="490" key="GridCell.Tab.1.bottom/0.0.1470.864@0.0.1470.864" timestamp="1617508603301" />
+    <state width="1221" height="207" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617542144522" />
+    <state width="1221" height="207" key="GridCell.Tab.1.center" timestamp="1617542144522">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1153" height="490" key="GridCell.Tab.1.center/0.0.1470.864@0.0.1470.864" timestamp="1617508603301" />
+    <state width="1221" height="207" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1617542144522" />
+    <state width="1221" height="207" key="GridCell.Tab.1.left" timestamp="1617542144522">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1153" height="490" key="GridCell.Tab.1.left/0.0.1470.864@0.0.1470.864" timestamp="1617508603301" />
+    <state width="1221" height="207" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1617542144522" />
+    <state width="1221" height="207" key="GridCell.Tab.1.right" timestamp="1617542144522">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1153" height="490" key="GridCell.Tab.1.right/0.0.1470.864@0.0.1470.864" timestamp="1617508603301" />
+    <state width="1221" height="207" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1617542144522" />
+    <state width="1221" height="207" key="GridCell.Tab.2.bottom" timestamp="1617542144523">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1153" height="490" key="GridCell.Tab.2.bottom/0.0.1470.864@0.0.1470.864" timestamp="1617508603301" />
+    <state width="1221" height="207" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617542144523" />
+    <state width="1221" height="207" key="GridCell.Tab.2.center" timestamp="1617542144522">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1153" height="490" key="GridCell.Tab.2.center/0.0.1470.864@0.0.1470.864" timestamp="1617508603301" />
+    <state width="1221" height="207" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1617542144522" />
+    <state width="1221" height="207" key="GridCell.Tab.2.left" timestamp="1617542144522">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1153" height="490" key="GridCell.Tab.2.left/0.0.1470.864@0.0.1470.864" timestamp="1617508603301" />
+    <state width="1221" height="207" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1617542144522" />
+    <state width="1221" height="207" key="GridCell.Tab.2.right" timestamp="1617542144522">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1153" height="490" key="GridCell.Tab.2.right/0.0.1470.864@0.0.1470.864" timestamp="1617508603301" />
+    <state width="1221" height="207" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1617542144522" />
+    <state x="416" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1617505858949">
+      <screen x="0" y="0" width="1470" height="864" />
+    </state>
+    <state x="416" y="256" key="com.intellij.ide.util.TipDialog/0.0.1470.864@0.0.1470.864" timestamp="1617505858949" />
+    <state x="452" y="326" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1617418630370">
+      <screen x="0" y="0" width="1470" height="864" />
+    </state>
+    <state x="452" y="326" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1470.864@0.0.1470.864" timestamp="1617418630370" />
+    <state x="447" y="145" width="642" height="534" key="find.popup" timestamp="1617522251788">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="145" width="642" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1617522251788" />
+    <state x="398" y="185" key="search.everywhere.popup" timestamp="1617419188828">
+      <screen x="0" y="0" width="1470" height="864" />
+    </state>
+    <state x="398" y="185" key="search.everywhere.popup/0.0.1470.864@0.0.1470.864" timestamp="1617419188828" />
+  </component>
+</project>
