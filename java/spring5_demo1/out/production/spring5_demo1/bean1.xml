@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--配置User对象创建 class中为包的路径，id为所取名字-->
+<!--    <bean id = "user" class="com.pn.spring5.User"></bean>-->
+<!--配置User对象-->
+<!--    <bean id = "book" class="com.pn.spring5.Book">-->
+
+<!--        &lt;!&ndash;set方法注入属性&ndash;&gt;-->
+<!--        &lt;!&ndash;name ：表示属性的名称&ndash;&gt;-->
+<!--        &lt;!&ndash;value：表示属性的值&ndash;&gt;-->
+<!--        <property name="bName" value="活着" ></property>-->
+<!--        <property name="bAuthor" value="余华" ></property>-->
+<!--    </bean>-->
+<!--    <property name="bAuthor">-->
+<!--        </null>-->
+<!--    </property>-->
+
+    <!--有参构造注入属性-->
+    <bean id = "order" class="com.pn.spring5.Order">
+        <constructor-arg name="oname" value="笔记本"></constructor-arg>
+        <constructor-arg name="address" value="tailand"></constructor-arg>
+    </bean>
+
+</beans>
