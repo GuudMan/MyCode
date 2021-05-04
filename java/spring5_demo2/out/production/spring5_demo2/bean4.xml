@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+
+    <!--提取list集合类型属性注入使用-->
+    <bean id="order" class="com.pn.spring5.bean.Order" init-method="initMethod" destroy-method="destoryMethod">
+        <property name="oName" value="手机"></property>
+    </bean>
+
+    <!--配置后置处理器-->
+    <bean id="myBeanPost" class="com.pn.spring5.bean.MyBeanPost"></bean>
+</beans>
+
