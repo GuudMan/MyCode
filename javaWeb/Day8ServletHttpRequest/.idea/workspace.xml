@@ -6,7 +6,17 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b819c260-abf7-4caf-8028-f820c3cdd5e5" name="Default Changelist" comment="" />
+    <list default="true" id="b819c260-abf7-4caf-8028-f820c3cdd5e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoAjax/DemoAjax.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExampleDownload/ExampleDownload.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JQuery基础/JQuery基础.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RedisDemo/RedisDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ResponseDemo1/ResponseDemo1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testdispatch/Testdispatch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HttpServletDemo/web/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpServletDemo/web/login.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +32,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -47,6 +60,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1q3Y6XUN8CP8GCKt0Y0iLTMdEpz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -55,9 +69,10 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -163,11 +178,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -186,6 +196,7 @@
       <option name="presentableId" value="Default" />
       <updated>1616309568908</updated>
       <workItem from="1616309585031" duration="4392000" />
+      <workItem from="1621136261673" duration="772000" />
     </task>
     <servers />
   </component>
