@@ -1,0 +1,37 @@
+<component name="libraryTable">
+  <library name="druid-1.1.10">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.4-tests.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/druid-1.1.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/fastjson-1.2.56.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/javax.annotation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/javax.ejb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/javax.jms.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/javax.persistence.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/javax.resource.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet.jsp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet.jsp.jstl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/javax.transaction.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/lombok.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.20.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-5.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-5.1.10.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-core-5.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-core-5.1.10.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-5.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-5.1.10.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-tx-5.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-tx-5.1.10.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.4-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.4-test-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

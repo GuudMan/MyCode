@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            text-align: center;
+            padding-top: 60px;
+        }
+
+        input{
+            width: 300px;
+            height: 20px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+
+        label{
+            font-style: normal;
+            font-size: 15px;
+        }
+
+    </style>
+</head>
+<script src="layui/layui.js"></script>
+<body>
+<div class="layui-form" lay-filter="useradminstudent" id="useradminstudent">
+    <div class="layui-form-item">
+        <div class="layui-input-item">
+            <label class="layui-form-label">学&nbsp;号：</label>
+            <input type="text" name="studentId" id="studentId" readonly="readonly" >
+        </div>
+
+        <div class="layui-input-item">
+            <label class="layui-form-label">姓&nbsp;名：</label>
+            <input type="text" name="name" id="name" placeholder="请输入姓名" readonly="readonly">
+        </div>
+
+        <div class="layui-input-item">
+            <label class="layui-form-label">年&nbsp龄：</label>
+            <input type="text" name="age" id="age" placeholder="请输入年龄" readonly="readonly">
+        </div>
+
+        <div class="layui-input-item">
+            <label class="layui-form-label">性&nbsp别：</label>
+            <input type="text" name="sex" id="sex" placeholder="请输入年龄" readonly="readonly">
+        </div>
+
+        <div class="layui-input-item">
+            <label class="layui-form-label">选&nbsp;题：</label>
+            <input type="text" name="titleId" id="titleId" placeholder="请输入选题" readonly="readonly">
+        </div>
+
+        <div class="layui-input-item">
+            <label class="layui-form-label">教师&nbsp;编号：</label>
+            <input type="text" name="teacherId" id="teacherId" placeholder="请输入教师编号" readonly="readonly">
+        </div>
+
+        <div class="layui-input-item">
+            <label class="layui-form-label">&nbsp;分数：</label>
+            <input type="text" name="teacherId" id="grade" placeholder="请输入教师分数">
+        </div>
+
+        <div class="layui-input-item">
+            <label class="layui-form-label">班级：</label>
+            <input type="text" name="teacherId" id="clazz" placeholder="请输入教师班级" readonly="readonly">
+        </div>
+
+        <!--<div>-->
+        <!--    <input type="button" name="modify" id="modify" value="修改" placeholder="请输入职称">-->
+        <!--</div>-->
+
+    </div>
+</div>
+</body>
+</html>

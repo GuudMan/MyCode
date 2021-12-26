@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>教师列表</title>
+  <link rel="stylesheet" href="layui/css/layui.css" media="all">
+</head>
+<body>
+
+<table id="demo" lay-filter="test"></table>
+<script src="layui/layui.js"></script>
+<script src="./js/jquery-3.5.1.min.js"></script>
+
+<script type="text/html" id="barDemo">
+  <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+  <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+</script>
+
+<script>
+  layui.use('table', function () {
+    var table = layui.table;
+
+    //第一个实例
+    table.render({
+      elem: '#demo'
+      , height: 'full-10'
+      , url: 'SelectAllTeacher' //数据接口
+      , method: 'get'
+      , page: true //开启分页
+      , cols: [[ //表头
+        {field: 'teacherId', title: '工号', width: 80, sort: true}
+        , {field: 'tname', title: '用户名', width: 120}
+        , {field: 'tsex', title: '性别', width: 80, sort: true}
+        , {field: 'tage', title: '年龄', width: 80}
+        , {field: 'tdept', title: '部门', width: 180}
+        , {field: 'tel', title: '手机号', width: 100, sort: true}
+        , {field: 'qQ', title: 'QQ号', width: 150, sort: true}
+        , {field: 'prefessional', title: '职称', width: 100}
+        , {field: 'right', title: '操作', width: 160, toolbar: '#barDemo'}
+      ]]
+    });
+    // 监听行事件
+
+    //监听行工具事件
+    table.on('tool(test)', function (obj) {
+      var data = obj.data;
+      //console.log(obj)
+      if (obj.event === 'del') {
+        layer.confirm('真的删除ID为：'+data.teacherId+"的用户吗?", function(index){
+
+          //console.log(data.p_id);
+          //向服务端发送删除指令
+          $.ajax({
+            url: 'DelTeacherByid',
+            type:'get',
+            data:{'id':data.teacherId},//向服务端发送删除的id
+            dataType: 'text',
+            success:function(res){
+              if(res == "success"){
+                obj.del(); //删除对应行（tr）的DOM结构，并更新缓存
+                // layer.close(index);
+                // console.log(index);
+                layer.msg("删除成功",{icon:1});
+                // window.location.href="SelectAllTeacher"
+              }
+              else{
+                layer.msg("删除失败",{icon:5});
+              }
+            }
+          });
+          layer.close(index);
+        });
+      } else if (obj.event === 'edit') {
+        // 实现编辑的功能
+        layer.open({  // 打开弹出层
+          type: 2 // 2表示自定义弹出 1表示layui弹出层
+          , title: '编辑教师信息'
+          , content: 'EditTeacher.html'
+          , maxmin: true
+          , area: ['500px', '600px']
+          , btn: ['确定', '取消']
+          , yes: function (index, layero) {
+            // 得到回调的数值
+            var teacherId = $(layero).find('iframe')[0].contentWindow.teacherId.value;
+            var tname = $(layero).find('iframe')[0].contentWindow.document.getElementById('tname').value;
+            var tsex = $(layero).find('iframe')[0].contentWindow.document.getElementById('tsex').value;
+            var tage = $(layero).find('iframe')[0].contentWindow.document.getElementById('tage').value;
+            var tdept = $(layero).find('iframe')[0].contentWindow.document.getElementById('tdept').value;
+            var tel = $(layero).find('iframe')[0].contentWindow.document.getElementById('tel').value;
+            var qQ = $(layero).find('iframe')[0].contentWindow.document.getElementById('qQ').value;
+            var prefessional = $(layero).find('iframe')[0].contentWindow.document.getElementById('prefessional').value;
+
+            // 同步数据表格中的数据
+            obj.update({
+              'teacherId': teacherId,
+              'tname': tname,
+              'tsex': tsex,
+              'tage': tage,
+              'tdept': tdept,
+              'tel': tel,
+              'qQ': qQ,
+              'prefessional': prefessional
+
+            })
+            $.ajax({
+              url: 'EditTeacher?teacherId=' + teacherId + "&tname=" + tname + "&tsex=" + tsex + "&tage=" + tage + "&tdept=" + tdept + "&tel=" + tel + "&qQ=" + qQ + "&prefessional=" + prefessional,
+              type: 'post',
+              contentType: 'application/json;charset=utf-8',
+              dataType: 'text',
+              data: {
+                'teacherId': teacherId,
+                'tname': tname,
+                'tsex': tsex,
+                'tage': tage,
+                'tdept': tdept,
+                'tel': tel,
+                'qQ': qQ,
+                'prefessional': prefessional
+              }
+              , success: function (res) {
+                layer.msg("编辑成功")
+              },
+              error: function (res) {
+                layer.msg("编辑失败")
+              }
+            });
+            layer.close(index); // 关闭弹出层
+          }
+          , success: function (layero, index) {
+            var div = layero.find('iframe').contents().find("#useradmin");
+            var body = layer.getChildFrame('body', index);
+            var iframeWindow = Window['layui-layer-iframe' + index];
+            body.find('#teacherId').val(data.teacherId);// 将每个格中填充初始数据
+            body.find('#tname').val(data.tname);
+            body.find('#tsex').val(data.tsex);
+            body.find('#tage').val(data.tage);
+            body.find('#tdept').val(data.tdept);
+            body.find('#tel').val(data.tel);
+            body.find('#qQ').val(data.qQ);
+            body.find('#prefessional').val(data.prefessional);
+          }
+        });
+      }
+    });
+
+
+  });
+</script>
+</body>
+</html>

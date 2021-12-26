@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加教师</title>
+    <script src="../../js/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+<h2>添加教师</h2>
+<label>工号: </label>
+<input type="text" id="teacherId">
+<br>
+<br>
+<label>姓名: </label>
+<input type="text" id="name">
+<br>
+<br>
+<label>性别: </label>
+<input type="text" id="sex">
+<br>
+<br>
+<lable for="">密码: </lable>
+<input type="text" id="password">
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" id="submit" onclick="submitTeacher()">
+
+
+<script type="text/javascript">
+    function submitTeacher() {
+      var studentId = $('#teacherId').val();
+      var name = $('#name').val();
+      var sex = $('#sex').val();
+      var password = $('#password').val()
+
+      $.ajax({
+          url: 'AddTeacher',
+          type:'post',
+          data:{
+            'studentId':studentId,
+            'name': name,
+            'sex':sex,
+            'password':password
+          },
+        success: function (res) {
+              if (res == "success"){
+                  alert("添加成功")
+              }else {
+                  alert("添加失败！")
+              }
+        },
+        error:function (res) {
+          alert("添加失败")
+        }
+      });
+
+    }
+</script>
+
+</body>
+</html>
